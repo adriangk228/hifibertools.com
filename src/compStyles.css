@@ -42,17 +42,21 @@
 
 .body {
     display: flex;
+    flex-direction: row;
     background-color: #1e1e1e; 
 }
 
 .demoContainer {
     display: flex;
-    flex-direction: column;
+    width: 60%;
+    align-items: start;
     transform: scale(0.8);
     margin-bottom: -50px;
+    margin-left: 50px;
 }
 
-.demoContainer > img {
+.demoGIF {
+    width: 100%;
     margin-top: -90px;
     margin-left: -70px;
     margin-right: -75px;
@@ -60,7 +64,8 @@
 }
 
 .textContainer {
-    display: flex;
+    width: 40%;
+    border-left: solid rgba(169, 169, 169, 0.179);
 }
 
 .demoText {
@@ -70,7 +75,7 @@
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     padding-left: 1.2em;
     padding-right: 1em;
-    border-left: solid rgba(169, 169, 169, 0.179);
+    /* border-left: solid rgba(169, 169, 169, 0.179); */
 }  
 
 .demoText > h1 {
@@ -158,7 +163,3 @@
     font-size: 14px;
     font-weight: 300;
 }
-
-
-   
-    
